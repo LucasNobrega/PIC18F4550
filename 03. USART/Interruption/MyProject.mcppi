@@ -33,8 +33,7 @@ Count=0
 [OTHER_FILES]
 Count=0
 [SEARCH_PATH]
-Path0=..\01. Getting started\
-Count=1
+Count=0
 [HEADER_PATH]
 Count=0
 [HEADERS]
@@ -42,14 +41,9 @@ Count=0
 [PLDS]
 Count=0
 [Useses]
-File0=C_Math
-File1=C_Stdlib
-File2=C_Type
-File3=C_String
-File4=Sprintf
-File5=Lcd
-File6=Lcd_Constants
-Count=7
+File0=Lcd
+File1=Lcd_Constants
+Count=2
 [INTERRUPT_DEFS]
 VECTOR_MODE=0
 IVT_BASE=00000008
@@ -58,10 +52,9 @@ IVT_BASE=00000008
 1=Sources
 Count=2
 [LIB_EXPANDED_NODES]
+0=mikroE Libraries
 1=System Libraries
-282=Lcd
-618=Sprintf
-Count=3
+Count=2
 [PROGRAMMER_TYPE]
 Value=mikroE mikroProg
 [CODEGRIP_OPTIONS]

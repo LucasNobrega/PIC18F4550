@@ -21,7 +21,6 @@ __low_savestatus
 __low_savewreg
 _ch
 _command
-_doprntf
 _lcd_blink_cursor_on
 _lcd_clear
 _lcd_cursor_off
@@ -50,7 +49,6 @@ acken
 acken_bit
 ackstat
 ackstat_bit
-acos
 acqt0
 acqt0_bit
 acqt1
@@ -61,8 +59,6 @@ actvie
 actvie_bit
 actvif
 actvif_bit
-adc_init
-adc_read
 adcon0
 adcon1
 adcon2
@@ -118,9 +114,6 @@ an3
 an3_bit
 an4
 an4_bit
-asin
-atan
-atan2
 atof
 atoi
 atol
@@ -211,7 +204,6 @@ ccpr1l
 ccpr2
 ccpr2h
 ccpr2l
-ceil
 cfgs
 cfgs_bit
 chs0
@@ -255,8 +247,6 @@ cmip
 cmip_bit
 comfrem
 compare_double
-cos
-cosh
 crc16ee
 crc16ee_bit
 crc16ef
@@ -296,9 +286,9 @@ d_a_bit
 d_bit
 d_not_a
 d_not_a_bit
-dados
 data_address
 data_address_bit
+data_in
 dc
 dc_bit
 dc1b0
@@ -327,7 +317,6 @@ dfn8ee
 dfn8ee_bit
 dfn8ef
 dfn8ef_bit
-digital
 dir_
 dir__bit
 div
@@ -463,19 +452,15 @@ epstall_uep7_bit
 epstall_uep8_bit
 epstall_uep9_bit
 equals_double
-exp
 f
-fabs
 fast
 ferr
 ferr_bit
 fixsign32
-floor
 flts
 flts_bit
 free
 free_bit
-frexp
 frm0
 frm0_bit
 frm1
@@ -723,10 +708,7 @@ lcd_out
 lcd_out_cp
 lcd_rs
 lcd_rs_direction
-ldexp
 ldiv
-log
-log10
 longint2double
 longjmp
 longword2double
@@ -765,7 +747,6 @@ memcpy
 memmove
 memset
 min
-modf
 mul_16x16_s
 mul_16x16_u
 mul_32x32_fp
@@ -907,7 +888,6 @@ postdec2
 postinc0
 postinc1
 postinc2
-pow
 ppb0
 ppb0_bit
 ppb1
@@ -1103,8 +1083,6 @@ setfov32
 setfun32
 setiov3224
 setjmp
-sin
-sinh
 smp
 smp_bit
 sofie
@@ -1147,8 +1125,6 @@ sppip
 sppip_bit
 sppown
 sppown_bit
-sprintf
-sqrt
 srand
 sren
 sren_bit
@@ -1292,8 +1268,6 @@ t3nsync_bit
 t3sync
 t3sync_bit
 tablat
-tan
-tanh
 tblptr
 tblptrh
 tblptrl
@@ -1497,6 +1471,9 @@ urstie
 urstie_bit
 urstif
 urstif_bit
+usart_init
+usart_receivechar
+usart_transmitchar
 usben
 usben_bit
 usbie
@@ -1518,7 +1495,6 @@ vdelay_advanced_ms
 vdelay_ms
 vdirmag
 vdirmag_bit
-volt
 vrefm
 vrefm_bit
 vrefp
