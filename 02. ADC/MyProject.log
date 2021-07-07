@@ -1,0 +1,15 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F8520 -RA -DL -O11111114 -fo8 -N"C:\Users\lucas\pic\02. ADC\MyProject.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"C:\Users\lucas\pic\02. ADC\" -SP"C:\Users\lucas\pic\01. Getting started\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" "MyProject.c" "LCD.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Sprintf.mcl"	 
+hint: 0	1139	Available RAM: 2027 [bytes], Available ROM: 32768 [bytes]	 
+diagnostics: 0	122	Compilation Started	P18F8520.c
+diagnostics: 2031	123	Compiled Successfully	P18F8520.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 172	123	Compiled Successfully	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	stdlib.h
+diagnostics: 92	123	Compiled Successfully	MyProject.c
+hint: 69	1164	Variable 'digital' has been eliminated by optimizer	MyProject.c
+diagnostics: 0	122	Compilation Started	lcd.h
+diagnostics: 72	123	Compiled Successfully	LCD.c
+hint: 49	1164	Variable 'location' has been eliminated by optimizer	LCD.c
+diagnostics: 0	127	All files Compiled in 234 ms	 
+error: 0	434	Demo Limit	Demo Limit
+error: 0	102	Finished (with errors): 06 Jul 2021, 21:41:26	MyProject.mcppi
